@@ -1,0 +1,52 @@
+# 忽略所有 .log 文件
+*.log
+
+# 忽略所有临时文件
+*.tmp
+*.temp
+*~
+
+# 忽略所有的缓存文件夹
+cache/
+*.cache
+
+# 忽略某些应用程序的配置文件
+# (根据实际需求添加)
+# 忽略 VSCode 的用户配置文件
+Code/User/
+
+# 忽略某些隐藏文件
+.DS_Store
+.Trash-*
+
+# 忽略某些特定的文件或目录
+# 例如：.config/someapp/temp/
+someapp/temp/
+
+# 忽略所有备份文件
+*.bak
+*.swp
+
+# 忽略二进制文件
+*.exe
+*.dll
+*.so
+
+# 忽略所有的备份文件
+*.bak
+*.old
+*.orig
+
+# 忽略系统特定文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 忽略目录中的编译文件（根据实际需要调整）
+# *.o
+# *.obj
+# *.pyc
+# *.pyo
+
+# 包含其他文件和目录
+!.gitignore
